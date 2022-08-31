@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: auto 0%;
+}
+h1 {
+    color: rgb(74, 219, 219);
+}
+
+.fondo-azul {
+    background-color: blueviolet;
+}
+
+body
+{
+    font-family: 'Dancing Script', cursive;
+
+
+}
