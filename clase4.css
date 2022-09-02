@@ -1,0 +1,34 @@
+.container{
+    background-color: green;
+    
+}
+
+.caja{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+.uno{
+    background-color: blue;
+}
+.dos{
+    background-color: yellow;
+}
+.tres{
+    background-color: red;
+}
+.cuatro{
+    background-color: blueviolet;
+}
+.cinco{
+    background-color: brown;
+}
+.seis{
+    background-color: aqua;
+}
+.siete{
+    background-color:coral;
+}
+.ocho{
+    background-color:darkmagenta;
+}
