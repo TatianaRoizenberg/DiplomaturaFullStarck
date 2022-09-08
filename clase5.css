@@ -1,0 +1,36 @@
+
+body {
+    background-color: rgb(220, 239, 239);
+    display: flex;
+}
+
+.caja{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+
+.roja {
+    background-color: red;
+}
+
+.rosa {
+    background-color: rgb(103, 31, 106);
+}
+
+.amarilla{
+    background-color: yellow;
+}
+
+.negra {
+    background-color: black;
+}
+
+.celeste {
+    background-color: rgb(47, 194, 194);
+}
+
+.verde {
+    background-color: greenyellow;
+}
+
