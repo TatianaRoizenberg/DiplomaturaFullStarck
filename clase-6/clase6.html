@@ -6,16 +6,211 @@
 - Position: Posicionamiento estático, relativo, absoluto, fijo y sticky
 - Combinaciones, Ancla-->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="clase6.css">
-    
-    <title>claase 6</title>
+    <title> Mi sitio web</title>
 </head>
+
 <body>
-    
+    <header id="arriba" class="encabezado">
+        <nav>
+            <ul class="menuSuperior">
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="./pages/personajes.html#video"> Personajes </a></li>
+                <li> <a href="./contacto.html"> Contacto</a></li>
+                <li> <a href="#"> Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <!-- Contenido -->
+        <section class="contenido">
+            <h2> Personajes </h2>
+            <div class="contenido__personajes">
+
+                <div class="contenido__imagen">
+                    <h3> Harry Potter</h3>
+                    <img src="./img/harry.jpg" alt="Imagen ilustrada Harry Potter">
+                </div>
+                <div class="contenido__imagen">
+                    <h3> Hermione Granger</h3>
+
+                    <img src="./img/hermione.png" alt="Imagen ilustrada Hermione Granger">
+
+                </div>
+
+                <div class="contenido__imagen">
+                    <h3> Ron Weasley</h3>
+                    <img src="./img/ron.jpeg" alt="Imagen ilustrada Ron Weasley">
+                </div>
+            </div>
+        </section>
+
+        <aside class="contenido__sugerencias">
+            <h4> Sugerencias</h4>
+
+            <div class="sugerencias_libros">
+                <img src="./img/libros.jpeg" alt="">
+            </div>
+            <div class="lista_libros">
+                <ul>
+                    <li> Harry Potter y la piedra filosofal.</li>
+                    <li>Harry Potter y la cámara secreta.</li>
+                    <li>Harry Potter y el prisionero de Azkaban.</li>
+                    <li>Harry Potter y el cáliz de fuego.
+                    </li>
+                    <li>Harry Potter y la Orden del Fénix.
+                    </li>
+                    <li>Harry Potter y el misterio del príncipe.
+                    </li>
+                    <li> Harry Potter y las reliquias de la Muerte.
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </aside>
+    </div>
+
+<!-- formularios -->
+
+
+    <section>
+
+        <form action="https://formspree.io/f/maykqlwr" method="post">
+            <fieldset>
+                <legend> Formulario de contacto</legend>
+
+            <label for="nombre"> Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre">
+            <br>
+            <label for="correo"> Correo electrónico</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingresa tu email">
+            <br>
+
+            <label for="clave"> Contraseña</label>
+            <input type="password" name="clave" id="clave" placeholder="ingresa tu contraseña">
+            <br>
+
+            <label for="fecha"> Fecha de nacimiento</label>
+            <input type="date" name="fecha" required>
+            <br> <label for="mensaje"> Escribi tu comentario</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" cols="20" rows="5" minlength="2" maxlength="40"></textarea>
+            <br>
+
+            <!-- Menu desplegable -->
+            <label for="talle">Talles</label>
+            <select name="talle" id="talle">
+                <option value="l"> Large</option>
+                <option value="m"> Medium</option>
+                <option value="s"> Small</option>
+
+            </select>
+            <br>
+            <!-- Botones Radio -->
+
+            <label for="pais"> Argentina</label>
+            <input type="radio" name="pais" value="argentina">
+            <label for="pais"> Uruguay</label>
+            <input type="radio" name="pais" value="uruguay">
+            <label for="pais"> Chile</label>
+            <input type="radio" name="pais" value="chile">
+            <br>
+
+            <!-- Casillas de chequeo -->
+
+            <input type="checkbox" name="acepta" value="1">
+            <br> <label> Acepta los términos y condiciones</label>
+
+            <!-- Botones -->
+            <input type="submit" value="Enviar formulario" class="boton_enviar">
+            <input type="reset" value="Limpiar formulario">
+            <input type="button" value="Sin acciones">
+</fieldset>
+        </form>
+
+    </section>
+
+    <section>
+        <div id="abuelo">
+            <p>Párrafo 1</p>
+            <p>Párrafo 2</p>
+            <div class="padre">
+                <div class="hijo"><a title="Título hijo1">HIJO1</a></div>
+                <div class="hijo"><a>HIJO2</a></div>
+                <div class="hijo"><a>HIJO3</a></div>
+            </div>
+            <p>Párrafo 3</p>
+            <p>Párrafo 4</p>
+            <div class="padre">
+                <div class="hijo"><a title="Título hijo4">HIJO4</a></div>
+                <div class="hijo"><a>HIJO5</a></div>
+                <div class="hijo"><a>HIJO6</a></div>
+            </div>
+            <p>Párrafo 5</p>
+            <p>Párrafo 6</p>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+<!-- cierro formularios -->
+
+
+
+
+
+
+    <footer id="pie" class="footer">
+
+        <div class="bloqueFooter">
+        <div>
+            <ul class="menuFooter">
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="./pages/personajes.html#video"> Personajes </a></li>
+                <li> <a href="#"> Contacto</a></li>
+                <li> <a href="#"> Nosotros</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="menuFooter">
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="./pages/personajes.html#video"> Personajes </a></li>
+                <li> <a href="#"> Contacto</a></li>
+                <li> <a href="#"> Nosotros</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="menuFooter">
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="./pages/personajes.html#video"> Personajes </a></li>
+                <li> <a href="#"> Contacto</a></li>
+                <li> <a href="#"> Nosotros</a></li>
+            </ul>
+        </div>
+</div>
+        <div class="link"><a href="#arriba"> Ir arriba</a></div>
+        <div class="creditoFinal"> Desarrollado por.....</div>
+
+    </footer>
+
 </body>
+
 </html>

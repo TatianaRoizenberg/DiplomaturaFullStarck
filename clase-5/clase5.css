@@ -1,6 +1,6 @@
 
 .body{
-    background-color: rgb(0, 0, 0);
+    background-image:url(imagenclase3.png);
     display: grid;
     grid-template-rows: 100px 70px 800px 400px 100px;
     grid-template-columns: repeat(4, 1fr);
