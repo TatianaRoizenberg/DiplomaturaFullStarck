@@ -1,0 +1,80 @@
+/* normalize */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    
+   
+} 
+
+body {
+    padding: 20vh 10vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+
+.titleContainer  h1 {
+    text-align: center;
+    margin-bottom: 7vh;
+    font-size: 3rem;
+
+}
+
+.formRegister {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh
+   
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.textConteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
+}
+
+.erroetext{
+    color: #D97A84;
+    text-align: center;
+}
+
+.input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.submit {
+    padding: 10px;
+    background-color: black;
+    color:yellowgreen;
+    border: 1px solid yellowgreen;
+    ;
+}
+
+.submit:hover {
+    transition: 3s all;
+    background: rgb(238,174,202);
+background: linear-gradient(184deg, rgba(238,174,202,1) 0%, rgba(154,133,179,1) 100%);
+    border: 1px solid rgb(245, 178, 245);
+    color: blueviolet;
+}
+
+.formContainer p a {font-weight: bold;
+    color:rgb(91, 64, 91);
+
+}
