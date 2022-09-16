@@ -81,9 +81,11 @@ background: linear-gradient(184deg, rgba(238,174,202,1) 0%, rgba(154,133,179,1) 
 
 }
 
-.fondodelformulario {
+/*.fondodelformulario {
     background-color: rgba(185, 182, 182, 0.932);
     padding: 10px;
     margin: 10px;
     border: 50px solid rgba(185, 182, 182, 0.932);
-}
+}*/
+
+/* ese div lo uso para hacer un sector gris en este caso */
