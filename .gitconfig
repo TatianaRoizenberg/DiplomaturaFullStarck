@@ -1,0 +1,23 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Tatiana Roizenberg
+#	email = tatianaroizenberg@MacBook-Pro-de-Tatiana.local
+[user]
+	name = TatianaRoizenberg
+	email = 102419379+TatianaRoizenberg@users.noreply.github.com
+[core]
+	editor = code --wait
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
