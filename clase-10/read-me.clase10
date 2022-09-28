@@ -1,0 +1,23 @@
+🐥JAVASCRIPT es5 y es6 
+-es el movimiento. Lenguaje de programacion interpretado por el navegador.
+-levemente tipado 
+-sintaxis menos rigida
+
+🐣APLICACION WEB
+Mientras que los sitios web buscan brindar información estática, las web apps permiten a los usuarios realizar múltiples tareas.
+Las aplicaciones web son plataformas dinámicas e interactivas y sus funcionalidades están en constante mantenimiento y mejora.
+СС
+De Facundo Salazar para todos
+
+🐣¿Cómo escribir código js?
+En un archivo individual con extensión js
+Ejemplo: mi-archivojs
+Recuerda no utilizar espacios ni mayúsculas en los nombres de archivo.
+<script src-"js/main.js">/script›
+
+🐣 console.log("Hola mundo"); (eso es para chequear que mi js y mi html esten bien enlazados)
+-F12 consola o inspeccionar y consola
+-parta ver si nos funciona bien la conexión entre visual y consola 
+
+🐣Algoritmo
+ENTRADA, OPERACION, SALIDA = Algoritmo. secuenci de pasos para lograr determinado resultado=Promt, Alert.
