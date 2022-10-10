@@ -48,5 +48,6 @@ console.log(colorMascotas[2][1].length);
 
 
 
-// hola soy la clase 11. Me falta la clase de Mati y la clase 12 completa 
+// hola soy la clase 11. 
+Me falta la clase de Mati y la clase 12 completa 
  
